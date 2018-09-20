@@ -49,6 +49,14 @@
 	</dependencies>
 
 	<build>
+		<!-- gdx requires assets as resource folder -->
+		<resources>
+			<resource>
+				<directory>src/assets</directory>
+			</resource>
+		</resources>
+		
+		<!-- gdx 'stand alone' executable jar -->
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
